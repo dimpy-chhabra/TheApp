@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dimpychhabra.theapp.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text="The App"
+        android:textColor="@color/white"
+        android:textSize="70sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20sp"
+        android:text=" Welcome "
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
